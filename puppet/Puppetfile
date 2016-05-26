@@ -1,0 +1,2 @@
+mod 'alexharvey/unicorn',
+  :git => 'https://github.com/alexharv074/puppet-unicorn.git'
