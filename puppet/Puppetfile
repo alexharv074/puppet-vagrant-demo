@@ -1,2 +1,8 @@
 mod 'alexharvey/unicorn',
   :git => 'https://github.com/alexharv074/puppet-unicorn.git'
+mod 'jfryman/nginx',
+  :git => 'https://github.com/jfryman/puppet-nginx.git'
+mod 'puppetlabs/ruby',
+  :git => 'https://github.com/puppetlabs/puppetlabs-ruby.git'
+mod 'puppetlabs/sqlite',
+  :git => 'https://github.com/puppetlabs/puppetlabs-sqlite.git'
