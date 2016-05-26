@@ -2,14 +2,13 @@ class tools {
 
   # package install list
   $packages = [
-    "curl",
-    "vim",
-    "htop"
+    'curl',
+    'vim',
   ]
 
   # install packages
   package { $packages:
     ensure => present,
-    require => Exec["apt-get update"]
+    require => Exec['yum update'],
   }
 }
