@@ -18,7 +18,7 @@ Joe acknowledges:
 0. Ensure Vagrant and Virutal Box are installed.
 1. Install Puppet Labs CentOS 7 Vagrant box. (If not installed already)
 
-        $ vagrant box add puppetlabs/centos-7.2-64-nocm
+        $ vagrant box add puppetlabs/centos-7.2-64-puppet
 
 2. Clone this repository.
 3. Create directory "webroot" in the root directory of the clone. This will act as your root web folder.

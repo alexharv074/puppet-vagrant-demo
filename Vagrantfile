@@ -15,7 +15,7 @@ Vagrant.configure('2') do |config|
   config.r10k.puppetfile_path = 'puppet/Puppetfile'
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "precise32"
+  config.vm.box = 'puppetlabs/centos-7.2-64-puppet'
 
   # Forward guest port 80 to host port 3000 and name mapping
   config.vm.network :forwarded_port, guest: 80, host: 3000
