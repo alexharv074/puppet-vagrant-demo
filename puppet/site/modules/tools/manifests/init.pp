@@ -10,6 +10,6 @@ class tools {
   # install packages
   package { $packages:
     ensure => present,
-    require => Exec["yum update"]
+    require => Exec["apt-get update"]
   }
 }
